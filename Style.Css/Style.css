@@ -29,7 +29,7 @@ header {
 .navitem {
   list-style: none;
   margin: 0 10px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 .navitem a {
@@ -41,7 +41,7 @@ header {
 }
 /*home section*/
 section {
-  padding: 100px 120px;
+  padding: 100px 80px;
   background-color: #202235;
 }
 #Home {
@@ -56,13 +56,17 @@ section {
   height: 500px;
 }
 .SocialBtn i {
-  font-size: 10px;
+  font-size: 15px;
   color: #fff;
   background-color: #24263b;
   margin: 12px 7px;
   padding: 12px;
   border-radius: 50%;
-  border: 1px solid #ff4a57;
+  border: 2px solid #ff4a57;
+}
+.SocialBtn i :hover {
+  background-color: #ff4a57;
+  cursor: pointer;
 }
 .textcontent {
   margin-top: 98px;
@@ -97,6 +101,7 @@ section {
   font-size: small;
   font-weight: normal;
   padding: 12px 30px;
+  cursor: pointer;
 }
 
 .hireBtn:hover {
@@ -224,29 +229,25 @@ h4 {
   width: 400px;
   line-height: 25px;
 }
-.hireme {
-  width: 120px;
-  height: 40px;
-  background-color: #1f2235;
-  color: #fff;
-  font-size: 12px;
-  border-color: #ff4a57;
+/* .hireme */
+.hireBtn.now {
   border-radius: 20px;
-  cursor: pointer;
   margin-top: 10px;
+  color: #fff;
 }
 .longrect {
   width: 300px;
-  height: 3px;
+  height: 5px;
   background-color: #2c2f40;
   border-radius: 10px;
   margin-top: 10px;
 }
 .pinkrect {
   width: 260px;
-  height: 3px;
+  height: 5px;
   background-color: #ff4a57;
   margin-top: 10px;
+  border-radius: 10px;
 }
 .percentage p {
   font-size: 15px;
@@ -257,4 +258,60 @@ h4 {
 #btnme :hover {
   background-color: #ff4a57;
   color: #fff;
+}
+.content h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.content p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+.workitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+  list-style: none;
+}
+#bordernav {
+  border-color: #ff4a57;
+}
+.workitems :hover {
+  background-color: #ff4a57;
+}
+ {
+  border-color: #ff4a57;
+  border: 50s0px;
+}
+#sepworks {
+  border-color: #ff4a57;
+  border: 5px;
+}
+.sepnav {
+  margin: 0px 5px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 14px;
+  border-color: #ff4a57;
+}
+.sepnav.sepworks {
+  border: 2px solid #ff4a57;
+}
+.portfolio-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 500px;
+}
+.flare {
+  width: 400px;
+}
+
+.apple {
+  width: 400px;
 }
